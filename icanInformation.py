@@ -1,8 +1,12 @@
 # encoding: utf-8
 
+
+'''
+UnicodeEncodeError
 import sys
 reload(sys)  
 sys.setdefaultencoding('utf8')
+'''
 
 import getpass
 import mechanize
